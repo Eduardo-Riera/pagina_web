@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Transformador Acorazado</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <header class="centrar">
+        <h1>Tranformador acorazado.</h1>
+        <!-- <h2>Cálculo</h2> -->
+        <!-- <hr style="margin: 0;"> -->
+    </header>
+    <section class="centrar">
+        <article>
+            <h2 class="subTitulo">Ingrese los siguientes valores</h2>
+            <br>
+            <p style="margin: 0%;">Voltaje del primario:</p>
+            <input type="number" id="voltajePrimario">
+            <p style="margin: 0%;">Voltaje del secundario:</p>
+            <input type="number" id="voltajeSecundario">
+            <p style="margin: 0%;">Medida A del núcleo en cm:</p>
+            <input type="number" id="medidaA">
+            <p style="margin: 0%;">Medida B del núcleo en cm:</p>
+            <input type="number" id="medidaB">
+            <br><br>
+            <button id="botonCalcular">Calcular</button>
+            <br><br>
+        </article>
+        <article>
+            <h2>Resultado del cálculo</h2>
+            <hr style="margin: 0;">
+            <h3>Para el primario</h3>
+            <br>
+            <p style="margin: 0%;">Espiras del primario:</p>
+            <input type="text" id="espirasPrimario" readonly>
+            <p style="margin: 0%;">Intensidad del primario en Amperes:</p>
+            <input type="text" id="intensidadPrimario" readonly>
+            <p style="margin: 0%;">Diámetro alambre primario en mm:</p>
+            <input type="text" id="diametroPrimario" readonly>
+            <br><br>
+        </article>
+        <article>
+            <h3>Para el secundario</h3>
+            <br>
+            <p style="margin: 0%;">Espiras del secundario:</p>
+            <input type="text" id="espirasSecundario" readonly>
+            <p style="margin: 0%;">Intensidad del secundario en Amperes:</p>
+            <input type="text" id="intensidadSecundario" readonly>
+            <p style="margin: 0%;">Diámetro alambre secundario en mm:</p>
+            <input type="text" id="diametroSecundario" readonly>
+            <br><br>
+        </article>
+    </section>
+    <script src=index.js></script>
+</body>
+</html>
