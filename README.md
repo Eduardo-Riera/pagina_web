@@ -1,4 +1,4 @@
-# Aplicación web para calcular transformadores acorazados
+# Aplicación web para calcular transformadores acorazados con núcleo de hierro.
 
 ![Un transformador](/images/transformador.jpg)
 
