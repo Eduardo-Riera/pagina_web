@@ -1,4 +1,7 @@
 # pagina_web
+
+![Un transformador](/images/transformador.jpg)
+
   Esta es una demostración del uso de javaScript principalmente.
   La aplicación calcula los valores con los que es posible la realización de
   un transformador acorazado.
